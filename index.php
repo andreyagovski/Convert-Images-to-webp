@@ -72,17 +72,19 @@ function convert_images_to_webp_renderForm(){
             This is a conversion plugin from jpg/png/bmp to the next-gen webp image format that is required for better perfromances on Google's Page speed insights.
         </p>
         <p>
-            # How to enable automatic conversion and convert current images on the website
+            <h3># How to enable automatic conversion and convert current images on the website</h3>
         </p>
         <p>
-            1. We need to enable the option to automatically convert images that will be uploaded from the media library
-            2. Go to: Settings -> Convert Images to Webp -> and enable the option "Enable auto generating images after upload:"
-            3. Adjust the quality of the webp images (1-100), 90 is optimal to have a good quality and conversion.
-            4. To convert the previous images that were already uploaded on the website choose the year folders and press "Convert All"
-            5. You can even convert images that are in the themes folder, the button under convert all: "Convert the Themes Folder"
+            <ul>
+                <ol>We need to enable the option to automatically convert images that will be uploaded from the media library</ol>
+                <ol>Go to: Settings -> Convert Images to Webp -> and enable the option "Enable auto generating images after upload:"</ol>
+                <ol>Adjust the quality of the webp images (1-100), 90 is optimal to have a good quality and conversion.</ol>
+                <ol>To convert the previous images that were already uploaded on the website choose the year folders and press "Convert All"</ol>
+                <ol>You can even convert images that are in the themes folder, the button under convert all: "Convert the Themes Folder"</ol>
+            </ul>
         </p>
         <p>
-            # How to display the webp images on frontend
+            <h3># How to display the webp images on frontend</h3>
         </p>
         <p>
             We currently use the b-lazy js library to lazy load the images on the website. This plugin has a modified version of b-lazy to load a webp images if the browser supports them. To do this you need to:
